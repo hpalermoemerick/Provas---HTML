@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="bg-white p-0">
+        <nav id="barra-menu" class="navbar navbar-expand-lg bg-light navbar-light p-3 p-lg-0">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 text-dark text-uppercase">Live Dinner</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="row text-uppercase collapse navbar-collapse justify-content-end bg-light p-4" id="navbarCollapse">
+                <div class="col-6 navbar-nav mr-auto">
+                    <img src="/images/logo.png" class="ms-5 ps-5" alt="LOGO">
+                </div>
+                <div id="lista-menu" class="col-6 navbar-nav mr-auto fs-5">
+                    <a href="index.html" id="cor-laranja" class="rounded nav-item nav-link active text-light p-3 fundo-orange">HOME</a>
+                    <a href="menu.html" class="nav-item nav-link p-3 fundo-orange">MENU</a>
+                    <a href="about.html" class="nav-item nav-link text-dark p-3 fundo-orange">ABOUT</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-3 text-dark" data-bs-toggle="dropdown">PAGES</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="booking.html" class="dropdown-item p-2">Reservation</a>
+                            <a href="team.html" class="dropdown-item p-2">Stuff</a>
+                            <a href="testimonial.html" class="dropdown-item p-2">Gallery</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link text-dark p-3 fundo-orange">CONTACT</a>
+                    <a href="blog.html" class="nav-item nav-link text-dark p-3 fundo-orange">BLOG</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- CARROSSEL -->
+        <div class="container-fluid p-0 mb-5">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="images/slider-01.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="cor-laranja" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="w-100" src="images/slider-02.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="cor-laranja" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="w-100" src="images/slider-03.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-start justify-content-center">
+                            <div class="p-3 text-start" style="max-width: 700px; position: relative; top: -350px;">
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Welcome To</h1>
+                                <h1 class="display-4 text-white mb-4 animated slideInDown fw-bold">Live Dinner Restaurant</h1>
+                                <a href="" id="cor-laranja" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="sobre1" class="">
+            <!-- <img src="images/about-bg.jpg" width="100vw" height="" alt=""> -->
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="row">
+                    <img src="images/about-bg.jpg" height="75%" alt="">
+                    <div class="row" style="position: relative; top: -600px; right: -190px;">
+                        <div class="col-4 ms-5 pb-5">
+                            <h1>Welcome To <span class="letra-laranja">Live Dinner Restaurant</span></h1>
+                            <h6>Little Story</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum hic tempora possimus iusto eaque reprehenderit fuga consectetur aspernatur, quia corrupti adipisci voluptas alias facilis ipsam odio aliquam eum similique voluptate!</p>
+                            <a href="" id="cor-laranja" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">RESERVATION</a>
+                        </div>
+                        <div class="col-6">
+                            <img src="images/about-img.jpg" height="75%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
