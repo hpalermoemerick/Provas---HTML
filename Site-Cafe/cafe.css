@@ -1,0 +1,47 @@
+:root{
+    --cor1: #884a39;
+    --cor2: #c38154;
+    --cor3: #ffc26f;
+    --cor4: #f9e0bb;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: var(--cor1);
+    color: var(--cor3);
+}
+
+#imagem1, #imagem2{
+    width: 50vw;
+}
+
+header{
+    background-image: url("/imgCafe/bgg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+section{
+    background-color: var(--cor3);
+}
+
+/* #parte1{
+    background-image: url("/imgCafe/bgg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+footer{
+    background-color: var(--cor2);
+}
+
+#a:hover{
+    background-color: var(--cor3);
+    color: var(--cor1);
+}
